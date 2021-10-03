@@ -1,13 +1,14 @@
 package brickBreaker;
 
 
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
-import java.awt.event.ActionListener;
-
-import javax.swing.*;
+import java.sql.Time;
+import javax.swing.Timer;
 
 public class GamePlay extends JPanel implements KeyListener,ActionListener{
 
@@ -20,7 +21,7 @@ public class GamePlay extends JPanel implements KeyListener,ActionListener{
     private int totalBricks = 21;
 
     private Timer time;
-    private int delay = 8;
+    private int delay = 10;
 
     private int playerX = 310;
     private int ballposX = 120;
@@ -29,12 +30,17 @@ public class GamePlay extends JPanel implements KeyListener,ActionListener{
     private int ballXdir = -1;
     private int ballYdir = -2;
 
+    private MapGenerator map;
+
     public GamePlay(){
+        map = new MapGenerator(3,7);
+
+
      addKeyListener(this);
      setFocusable(true);
      setFocusTraversalKeysEnabled(false);
-     timer = new Time(delay,this);
-     timer.start();
+     time = new Timer(delay,this);
+     time.start();
 
     }
 
@@ -44,10 +50,13 @@ public class GamePlay extends JPanel implements KeyListener,ActionListener{
         g.setColor(Color.BLACK);
         g.fillRect(1,1,692,592);
 
+        // drawing map
+        map.draw((Graphics2D)g);
+
         //borders
         g.setColor(Color.yellow);
         g.fillRect(0,0,3,592);
-        g.fillRect(0,0,692,3);
+        g.fillRect(0,0,687,3);
         g.fillRect(691,0,3,592);
 
         // the paddle
@@ -58,8 +67,8 @@ public class GamePlay extends JPanel implements KeyListener,ActionListener{
         //the ball
 
         g.setColor(Color.yellow);
-        g.fillRect(ballposX,ballposY,20,20);
-
+        g.fillOval(ballposX,ballposY,20,20);
+        g.dispose();
     }
 
 
@@ -67,7 +76,28 @@ public class GamePlay extends JPanel implements KeyListener,ActionListener{
 
     @Override
     public void actionPerformed(ActionEvent e) {
+    time.start();
+    if(play){
 
+        if(new Rectangle(ballposX,ballposY,20,20).intersects(new Rectangle(playerX,550,100,8)))
+        {
+            ballYdir = -ballYdir;
+
+        }
+        ballposX+=ballXdir;
+        ballposY+=ballYdir;
+        if(ballposX < 0){
+           ballXdir = -ballXdir;
+        }
+        if(ballposY < 0){
+            ballYdir = -ballYdir;
+        }
+        if(ballposX > 670){
+            ballXdir = -ballXdir;
+        }
+    }
+
+    repaint();
     }
 
     @Override

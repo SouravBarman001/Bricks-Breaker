@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54343fd5-ca9a-4fc2-9981-25fa1dc9d506" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/brickBreaker/MapGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/brickBreaker/GamePlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/brickBreaker/GamePlay.java" afterDir="false" />
     </list>
@@ -34,6 +34,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -73,21 +74,44 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1633259081125" />
-    <state width="723" height="41" key="GridCell.Tab.0.bottom" timestamp="1633259993186">
+    <state width="723" height="41" key="GridCell.Tab.0.bottom" timestamp="1633272325218">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="723" height="41" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1633259993186" />
-    <state width="723" height="41" key="GridCell.Tab.0.center" timestamp="1633259993186">
+    <state width="723" height="41" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1633272325218" />
+    <state width="723" height="41" key="GridCell.Tab.0.center" timestamp="1633272325218">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="723" height="41" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1633259993186" />
-    <state width="723" height="41" key="GridCell.Tab.0.left" timestamp="1633259993185">
+    <state width="723" height="41" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1633272325218" />
+    <state width="723" height="41" key="GridCell.Tab.0.left" timestamp="1633272325218">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="723" height="41" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1633259993185" />
-    <state width="723" height="41" key="GridCell.Tab.0.right" timestamp="1633259993186">
+    <state width="723" height="41" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1633272325218" />
+    <state width="723" height="41" key="GridCell.Tab.0.right" timestamp="1633272325218">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="723" height="41" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1633259993186" />
+    <state width="723" height="41" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1633272325218" />
+    <state x="559" y="81" key="SettingsEditor" timestamp="1633271196434">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="559" y="81" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1633271196434" />
+    <state x="454" y="166" key="Vcs.Push.Dialog.v2" timestamp="1633262559465">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="454" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1633262559465" />
+    <state x="861" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1633270102169">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="861" y="261" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1633270102169" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/brickBreaker/MapGenerator.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
