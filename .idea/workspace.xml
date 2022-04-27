@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54343fd5-ca9a-4fc2-9981-25fa1dc9d506" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/brickBreaker/MapGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Game Dev/brickBreaker/GamePlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Game Dev/brickBreaker/GamePlay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Game Dev/brickBreaker/MapGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Game Dev/brickBreaker/MapGenerator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/brickBreaker/GamePlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/brickBreaker/GamePlay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/brickBreaker/MapGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/brickBreaker/MapGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -29,11 +32,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RunManager">
@@ -74,22 +79,30 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1633259081125" />
-    <state width="723" height="41" key="GridCell.Tab.0.bottom" timestamp="1633272325218">
+    <state x="1032" y="321" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1633279401073">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="723" height="41" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1633272325218" />
-    <state width="723" height="41" key="GridCell.Tab.0.center" timestamp="1633272325218">
+    <state x="1032" y="321" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1633279401073" />
+    <state x="549" y="188" key="FileChooserDialogImpl" timestamp="1637553530918">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="723" height="41" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1633272325218" />
-    <state width="723" height="41" key="GridCell.Tab.0.left" timestamp="1633272325218">
+    <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1637553530918" />
+    <state width="1493" height="48" key="GridCell.Tab.0.bottom" timestamp="1637553624097">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="723" height="41" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1633272325218" />
-    <state width="723" height="41" key="GridCell.Tab.0.right" timestamp="1633272325218">
+    <state width="1493" height="48" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1637553624097" />
+    <state width="1493" height="48" key="GridCell.Tab.0.center" timestamp="1637553624097">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="723" height="41" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1633272325218" />
+    <state width="1493" height="48" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1637553624097" />
+    <state width="1493" height="48" key="GridCell.Tab.0.left" timestamp="1637553624096">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="48" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1637553624096" />
+    <state width="1493" height="48" key="GridCell.Tab.0.right" timestamp="1637553624097">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="48" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1637553624097" />
     <state x="559" y="81" key="SettingsEditor" timestamp="1633271196434">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -98,10 +111,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="454" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1633262559465" />
-    <state x="861" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1633270102169">
+    <state x="861" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1637553489630">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="861" y="261" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1633270102169" />
+    <state x="861" y="261" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1637553489630" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
